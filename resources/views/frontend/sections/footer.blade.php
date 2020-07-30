@@ -5,116 +5,42 @@
 
             <div class="footer__nav-col flex flex-col sy-3">
 
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Почерковедческая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Техническая экспертиза документов'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Экспертиза давности документов'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Автотехническая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Землеустроительная экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Строительно-техническая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Экологическая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Финансово-экономическая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Бухгалтерская экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Агротехническая экспертиза'])
-                @endcomponent
+                @for($i = 0; $i < 10; $i++)
+                    @component('frontend.components.footer.footer__nav-item', ['text'=>$services_list['expertize'][$i]->name])
+                    @endcomponent
+                @endfor
 
             </div>
 
             <div class="footer__nav-col flex flex-col sy-3">
 
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Биологическая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Товароведческая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Экспертиза материалов, веществ и изделий'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Трасологическая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Баллистическая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Пожарно-техническая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Экспертиза холодного оружия'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Фоноскопическая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Компьютерно-техническая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Видеотехническая экспертиза'])
-                @endcomponent
+                @for($i = 10; $i < 20; $i++)
+                    @component('frontend.components.footer.footer__nav-item', ['text'=>$services_list['expertize'][$i]->name])
+                    @endcomponent
+                @endfor
 
             </div>
 
             <div class="footer__nav-col flex flex-col sy-3">
 
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Фототехническая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Портретная экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Лингвистическая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Автороведческая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Судебная психологическая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Судебная психиатрическая экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Судебно-медицинская экспертиза'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Судебная генетическая экспертиза'])
-                @endcomponent
+                @for($i = 20; $i < 27; $i++)
+                    @component('frontend.components.footer.footer__nav-item', ['text'=>$services_list['expertize'][$i]->name])
+                    @endcomponent
+                @endfor
 
             </div>
 
             <div class="footer__nav-col flex flex-col sy-3">
 
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Оценка ущерба'])
-                @endcomponent
+                @for($i = 0; $i < 4; $i++)
+                    @component('frontend.components.footer.footer__nav-item', ['text'=>$services_list['appraisal'][$i]->name])
+                    @endcomponent
+                @endfor
 
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Оценка прав'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Оценка имущества'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Оценка арендной ставки'])
-                @endcomponent
-
-                @component('frontend.components.footer.footer__nav-item', ['text'=>'Рецензирование'])
-                @endcomponent
+                @for($i = 0; $i < 1; $i++)
+                    @component('frontend.components.footer.footer__nav-item', ['text'=>$services_list['reviewing'][$i]->name])
+                    @endcomponent
+                @endfor
 
             </div>
 

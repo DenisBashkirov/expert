@@ -29,6 +29,11 @@ class FrontendOutputController extends FrontendBaseController
         ];
         View::share('company', $company);
 
+        $services['expertize'] = Service::where('category_id', 1)->get();
+        $services['appraisal'] = Service::where('category_id', 2)->get();
+        $services['reviewing'] = Service::where('category_id', 3)->get();
+        View::share('services_list', $services);
+
         // сохраняем utm из url в сессию
         foreach ($request->input() as $key=>$val) {
             if(strripos($key, 'utm') === 0) {
