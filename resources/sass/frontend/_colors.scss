@@ -1,0 +1,27 @@
+$black-100: #000;
+$black-90: #151A1C;
+$grey-90: #3E4345;
+$grey-80: #5E6366;
+$grey-30: #babec0;
+$grey-20: #F1F3F4;
+$golden-90: #EDCF93;
+$white: #fff;
+
+$colors-map:
+    (black-100, $black-100),
+    (black-90, $black-90),
+
+    (grey-90, $grey-90),
+    (grey-80, $grey-80),
+    (grey-30, $grey-30),
+    (grey-20, $grey-20),
+
+    (golden-90, $golden-90),
+
+    (white, $white);
+
+
+$radial-dark: linear-gradient(180deg, #5B4D5C 0%, #31282D 100%);
+
+$backgrounds-map:
+    (radial-dark, $radial-dark);

@@ -1,0 +1,7 @@
+@import "../../../bootstrap"
+
+$i: 100
+@while $i <= 200
+    +breakpoints(scale-#{$i})
+        transform: scale(#{$i / 100})
+    $i: $i + 10
