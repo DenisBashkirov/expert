@@ -129,7 +129,7 @@
 
             <div>
                 <div class="footer__phone text-2xl font-medium">
-                    <a class="no-underline" href="tel:+7999999999">8 (861) 999 99 99</a>
+                    <a class="no-underline" href="tel:{{ $company['phone_href'] }}">{{ $company['phone'] }}</a>
                 </div>
                 <div class="footer__schedule">
                     <p>пн-пт: 9<sup>00</sup>-18<sup>00</sup></p>
@@ -137,8 +137,8 @@
             </div>
 
             <address class="footer__addrress flex flex-col md-lg:mt-10 sy-2">
-                <p>г. Краснодар, ул. Степана Разина, 72, оф. 206</p>
-                <a class="hover-underline" href="mailto:expert@roseksp.ru">expert@roseksp.ru</a>
+                <p>{{ $company['address'] }}</p>
+                <a class="hover-underline" href="mailto:{{ $company['email'] }}">{{ $company['email'] }}</a>
             </address>
 
         </div>

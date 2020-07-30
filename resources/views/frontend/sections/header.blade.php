@@ -12,7 +12,7 @@
             @endcomponent
         </div>
 
-        <a class="header__phone xs-lg:hidden xl:text-xl hover-underline" href="tel:+79999999999">8 (999) 999 99 99</a>
+        <a class="header__phone xs-lg:hidden xl:text-xl hover-underline" href="tel:{{ $company['phone_href'] }}">{{ $company['phone'] }}</a>
 
         <div class="header__callback xs-lg:hidden xl:text-xs">
             @component('frontend.components.button.button')

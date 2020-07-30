@@ -22,15 +22,16 @@
                 </div>
 
                 <div class="sy-4 lh-120">
-                    <address class="flex flex-col sy-2"><b>Факт. адрес:</b> г. Краснодар, ул. Степана Разина, 72, оф. 206</address>
-                    <address class="flex flex-col sy-2"><b>Юр. адрес:</b> г. Краснодар, ул. Калинина, 350/7</address>
-                    <p><b>Телефон:</b> <a class="hover-underline" href="tel:88612139999">8 (861) 999 99 99</a></p>
-                    <p><b>Email:</b> <a class="hover-underline" href="mailto:expert@roseksp.ru">expert@roseksp.ru</a></p>
+                    <address class="flex flex-col sy-2"><b>Факт. адрес:</b> {{ $company['address'] }}6</address>
+                    <address class="flex flex-col sy-2"><b>Юр. адрес:</b> {{ $company['address_legal'] }}</address>
+                    <p><b>Телефон:</b> <a class="hover-underline" href="tel:{{ $company['phone_href'] }}">{{ $company['phone'] }}</a></p>
+                    <p><b>Email:</b> <a class="hover-underline" href="mailto:{{ $company['email'] }}">{{ $company['email'] }}</a></p>
                 </div>
 
                 <div class="sy-4 lh-120">
                     <p>Общество с ограниченной ответственностью "Эксперт"</p>
-                    <p>ИНН: </p>
+                    <p>ИНН: 2308150919</p>
+                    <p>ОГРН: 1082308012071</p>
                 </div>
 
             </div>
