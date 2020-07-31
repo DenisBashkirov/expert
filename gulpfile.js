@@ -111,7 +111,10 @@ gulp.task('uncss', function () {
         uncss({
             html: [
                 'http://expert/',
-                'http://okna.aliro.v2/thanks',
+                'http://expert/contacts',
+                'http://expert/services/ekspertizy',
+                'http://expert/pocerkovedceskaya-ekspertiza',
+
             ],
             ignore: [
                 /.is-active/,
