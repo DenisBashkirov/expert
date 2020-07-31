@@ -9,12 +9,12 @@
             <div class="xl:grid xl:grid-cols-3 xl:justify-items-center px-4 xl:py-20 font-light">
 
                 <div class="inline-flex flex-col xl:sy-10">
-                    <div>
+                    <div onclick="jivo_api.open({start : 'call'});">
                         @component('frontend.components.button.button')
                             Заказать звонок
                         @endcomponent
                     </div>
-                    <div>
+                    <div onclick="jivo_api.open();">
                         @component('frontend.components.button.button')
                             Задать вопрос
                         @endcomponent

@@ -11,6 +11,7 @@
 
     @include('frontend.sources.favicons')
     @include('frontend.sources.styles')
+    @include('frontend.sources.services')
 
 </head>
 

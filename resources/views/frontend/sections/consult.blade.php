@@ -7,7 +7,7 @@
             <div class="md:text-lg lg:text-xl">через онлайн-чат</div>
         </div>
 
-        <div class="text-center xs-sm:mt-10">
+        <div class="text-center xs-sm:mt-10" onclick="jivo_api.open();">
             @component('frontend.components.button.button')
                 Начать диалог
             @endcomponent
