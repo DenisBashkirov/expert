@@ -110,7 +110,7 @@ gulp.task('uncss', function () {
     let plugins = [
         uncss({
             html: [
-                'http://okna.aliro.v2/',
+                'http://expert/',
                 'http://okna.aliro.v2/thanks',
             ],
             ignore: [

@@ -1,4 +1,4 @@
-<nav class="nav xl:sx-6">
+<nav class="nav xs-sm:h-min-full xs-sm:flex xs-sm:flex-col xs-sm:flex-start xs-sm:sy-5 xs-sm:px-4 xs-sm:pt-16 xl:sx-6 xs-sm:bg-radial-dark">
 
     @component('frontend.components.nav.nav__item', [
         'link'=>route('home'),
