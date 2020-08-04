@@ -10,15 +10,15 @@
 
                 <div class="flex flex-col-reverse xl:mt-8 xl:w-144">
                     <h1 class="xs-sm:mt-2 md-xl:mt-2 xs-sm:text-2xl md:text-3xl lg:text-3xl xl:text-5xl lh-130 font-oranienbaumm">{{ $meta['h1'] }}</h1>
-                    <p class="xs-sm:mt-8 xs-sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl color-golden-90 font-light">Самая профессиональная</p>
+                    <p class="xs-sm:mt-8 xs-sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl color-golden-90 font-light">Профессиональная</p>
                 </div>
 
-                <div class="md-xl:text-2xl">Судебно-экспертное учреждение "Эксперт"</div>
+                <div class="md-xl:text-2xl">Судебно-экспертное учреждение</div>
 
             </div>
 
             <div class="xs-sm:h-48 lg:h-56 xl:h-80 xs-sm:mt-3 xs-sm:text-center">
-                <img class="js-parallax-object" src="{{ asset('img/home/hero-img.png') }}" alt="">
+                <img src="{{ asset('img/logos/title.png') }}" alt="">
             </div>
 
         </div>

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="text-center">
             @component('frontend.components.headers.h2')
-                Наши клиенты
+                Наши заказчики
             @endcomponent
         </div>
     </div>

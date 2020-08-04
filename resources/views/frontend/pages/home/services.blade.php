@@ -8,7 +8,7 @@
 
     <div class="xs-sm:mt-8 md:mt-12 lg-xl:mt-16 xs-sm:sy-10 md-xl:sy-3">
 
-        <h3 class="font-oranienbaumm xs:text-xl sm:text-2xl md-lg:text-4xl xl:text-5xl">Популярные виды экспертиз</h3>
+        <h3 class="font-oranienbaumm xs:text-xl sm:text-2xl md-lg:text-4xl xl:text-5xl">Востребованные виды экспертиз</h3>
 
         <div>
 
