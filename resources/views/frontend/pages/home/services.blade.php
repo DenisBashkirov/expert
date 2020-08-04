@@ -34,8 +34,7 @@
         <h3 class="font-oranienbaumm xs:text-xl sm:text-2xl md-lg:text-4xl xl:text-5xl ">Оценка и рецензирование</h3>
 
         @component('frontend.components.serivces-list.services-list', [
-            'services'=> $services['appraisal'],
-            'grid_cols'=>4
+            'services'=> $services['appraisal']
         ])
         @endcomponent
 

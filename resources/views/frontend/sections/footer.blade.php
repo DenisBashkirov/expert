@@ -32,7 +32,7 @@
 
             <div class="footer__nav-col flex flex-col sy-3">
 
-                @for($i = 0; $i < 4; $i++)
+                @for($i = 0; $i < 3; $i++)
                     @component('frontend.components.footer.footer__nav-item', ['text'=>$services_list['appraisal'][$i]->name])
                     @endcomponent
                 @endfor

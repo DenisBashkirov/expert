@@ -191,12 +191,6 @@ class ServicesSeeder extends Seeder
                 'popular' => 0
             ],
             [
-                'name'=>'Оценка прав',
-                'icon'=>'justice',
-                'category_id'=> 2,
-                'popular' => 0
-            ],
-            [
                 'name'=>'Оценка имущества',
                 'icon'=>'keys',
                 'category_id'=> 2,
