@@ -11,8 +11,8 @@
         @foreach($service_categories as $category)
 
             <div>
-                <h3 class="service-dropdown__category-headline xs-sm:p-4 md-xl:p-6 xs:text-xl sm:text-2xl md-xl:text-4xl b-bottom-grey-20 bg-white js-dropdown-toggle cursor-pointer">{{ $category->name }}</h3>
-                <div class="services-dropdown__category-items hidden xs-sm:px-2 md-xl:px-4 pb-8 bg-white-90 b-bottom-grey-30">
+                <h3 class="service-dropdown__category-headline xs-sm:p-4 md-xl:p-6 xs:text-xl sm:text-2xl md-xl:text-4xl b-bottom-grey-20 bg-white js-dropdown-toggle cursor-pointer hover-contrast-98">{{ $category->name }}</h3>
+                <div class="services-dropdown__category-items hidden xs-sm:px-2 md-xl:px-4 pb-8 bg-white-90 b-bottom-grey-20">
 
                     <div class="md-xl:grid grid-cols-3 md:col-gap-4 lg:col-gap-4 xl:col-gap-4 md-xl:row-gap-3">
 
