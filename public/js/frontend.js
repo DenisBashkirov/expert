@@ -108,4 +108,10 @@ $(document).ready(function () {
         });
     }
 
+    let $dropdownButtons = $('.js-dropdown-toggle');
+    $dropdownButtons.on('click', function () {
+        let $next = $(this).next();
+        $next.slideToggle();
+    })
+
 });

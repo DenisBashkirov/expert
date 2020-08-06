@@ -51,8 +51,8 @@
 
     <div class="services-dropdown xs-sm:mt-8 md-lg:mt-8 xl:mt-10 b-radius-10 overflow-hidden">
         <div>
-            <h3 class="service-dropdown__category-headline xl:p-6 text-4xl b-bottom-grey-20 bg-white">Экспертизы</h3>
-            <div class="services-dropdown__category-items px-4 pb-8 bg-white-90">
+            <h3 class="service-dropdown__category-headline xl:p-6 text-4xl b-bottom-grey-20 bg-white js-dropdown-toggle">Экспертизы</h3>
+            <div class="services-dropdown__category-items hidden px-4 pb-8 bg-white-90">
 
                 <div class="md-xl:grid grid-cols-3 md:col-gap-4 lg:col-gap-4 xl:col-gap-4 md-xl:row-gap-3">
 
