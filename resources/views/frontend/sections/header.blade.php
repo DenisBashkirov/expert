@@ -13,7 +13,7 @@
             @endcomponent
         </div>
 
-        <a class="header__phone xs-lg:hidden xl:text-xl hover-underline" href="tel:{{ $company['phone_href'] }}">{{ $company['phone'] }}</a>
+        <a class="header__phone xs-lg:hidden xl:text-xl hover-underline calltracking" href="tel:{{ $company['phone_href'] }}">{{ $company['phone'] }}</a>
 
         <div class="header__callback xs-lg:hidden xl:text-xs" onclick="jivo_api.open({start : 'call'});">
             @component('frontend.components.button.button')
