@@ -6,6 +6,7 @@ $grey-30: #babec0;
 $grey-20: #F1F3F4;
 $golden-90: #EDCF93;
 $white: #fff;
+$white-90: #fdfdfd;
 
 $colors-map:
     (black-100, $black-100),
@@ -18,7 +19,8 @@ $colors-map:
 
     (golden-90, $golden-90),
 
-    (white, $white);
+    (white, $white),
+    (white-90, $white-90);
 
 
 $radial-dark: linear-gradient(180deg, #5B4D5C 0%, #31282D 100%);

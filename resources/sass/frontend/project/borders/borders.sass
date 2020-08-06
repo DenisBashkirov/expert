@@ -1,0 +1,8 @@
+@import "../../../bootstrap"
+
+@each $name, $color in $colors-map
+    +breakpoints(b-bottom-#{$name})
+        border-bottom: 1px solid #{$color}
+
+    +breakpoints(b-top-#{$name})
+        border-top: 1px solid #{$color}
