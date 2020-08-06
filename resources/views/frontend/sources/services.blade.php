@@ -22,4 +22,8 @@
     <!-- Jivosite -->
     <script src="//code-ya.jivosite.com/widget/WGe5rR2CE2" async></script>
 
+    <!-- Zadarma Calltracking -->
+    <script>(function(w, c){(w[c]=w[c]||[]).push(function(){new zTracker({"id":"da8947630a206ba03fca23de175aab833446","metrics":{"metrika":"53311612","ga":"UA-93845056-3"}});});})(window, "zTrackerCallbacks");</script>
+    <script async id="zd_ct_phone_script" src="https://my.zadarma.com/js/ct_phone.min.js"></script>
+
 @endif
