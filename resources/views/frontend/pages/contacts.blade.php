@@ -23,7 +23,8 @@
 
                 <div class="sy-4 lh-120">
                     <address class="flex flex-col sy-2"><b>Факт. адрес:</b> {{ $company['address'] }}6</address>
-                    <address class="flex flex-col sy-2"><b>Юр. адрес:</b> {{ $company['address_legal'] }}</address>
+                    <address class="flex flex-col sy-2"><b>Экспедиционный отдел:</b> {{ $company['address_legal'] }}</address>
+                    <p><b>Телефон:</b> <a class="hover-underline calltracking" href="tel:{{ $company['phone_href'] }}">{{ $company['phone'] }}</a></p>
                     <p><b>Телефон:</b> <a class="hover-underline" href="tel:{{ $company['phone_href'] }}">{{ $company['phone'] }}</a></p>
                     <p><b>Email:</b> <a class="hover-underline" href="mailto:{{ $company['email'] }}">{{ $company['email'] }}</a></p>
                 </div>
