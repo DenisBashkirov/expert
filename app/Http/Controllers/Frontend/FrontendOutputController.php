@@ -84,10 +84,8 @@ class FrontendOutputController extends FrontendBaseController
         ];
         $this->varsAdd('meta', $meta);
 
-        $services['expertize'] = Service::where('category_id', 1)->where('popular', 1)->get();
-        $services['appraisal'] = Service::where('category_id', 2)->get();
-        $services['reviewing'] = Service::where('category_id', 3)->get();
-        $this->varsAdd('services', $services);
+        $service_categories = ServiceCategory::all();
+        $this->varsAdd('service_categories', $service_categories);
 
         return $this->renderOutput();
     }
