@@ -99,7 +99,7 @@ class FrontendOutputController extends FrontendBaseController
         $this->varsAdd('service_category', $category);
 
         $meta = [
-            'title' => $category->meta_title,
+            'title' => $category->name . ' в Краснодаре',
             'description' => $category->meta_description,
             'h1' => $category->h1,
         ];
@@ -114,7 +114,7 @@ class FrontendOutputController extends FrontendBaseController
         $this->varsAdd('service', $service);
 
         $meta = [
-            'title' => $service->meta_title,
+            'title' => $service->name . ' в Краснодаре',
             'description' => $service->meta_description,
             'h1' => $service->name,
         ];
