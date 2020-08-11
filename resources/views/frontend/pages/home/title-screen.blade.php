@@ -6,14 +6,14 @@
 
         <div class="md-xl:grid md-xl:grid-flow-col md-xl: md-xl:justify-between">
 
-            <div class="flex flex-col-reverse md-xl:justify-around">
+            <div class="flex flex-col-reverse md-xl:justify-center">
 
-                <div class="flex flex-col-reverse xl:mt-8 xl:w-144">
+                <div class="flex flex-col-reverse xl:w-144">
                     <h1 class="xs-sm:mt-2 md-xl:mt-2 xs-sm:text-2xl md:text-3xl lg:text-3xl xl:text-5xl lh-130 font-oranienbaumm">{{ $meta['h1'] }}</h1>
                     <p class="xs-sm:mt-8 xs-sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl color-golden-90 font-light">Профессиональная</p>
                 </div>
 
-                <div class="md-xl:text-2xl">Судебно-экспертное учреждение</div>
+                <div class="md-xl:text-2xl md-xl:mb-8">Судебно-экспертное учреждение "Эксперт"</div>
 
             </div>
 
@@ -35,7 +35,7 @@
             @component('frontend.components.hero-feature-item.hero-feature-item', [
                 'headline'=>'Нас рекомендуют',
                 'icon'=>'handshake',
-                'text'=>'Арбитражные суды и суды общей юрисдикци'
+                'text'=>'Арбитражные суды и суды общей юрисдикции'
             ])
             @endcomponent
 
