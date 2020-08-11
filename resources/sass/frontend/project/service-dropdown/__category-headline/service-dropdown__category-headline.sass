@@ -1,0 +1,18 @@
+@import "../../../../bootstrap"
+
+.service-dropdown__category-headline
+    background: #fff
+    transition: all $duration_fast ease-in-out
+
+    & i
+        opacity: 0
+        transform: translateX(-15px)
+        transition: all $duration_fast ease-in-out
+
+
+.service-dropdown__category-headline:hover
+    background: #efefef
+
+    & i
+        opacity: 1
+        transform: translateX(0)

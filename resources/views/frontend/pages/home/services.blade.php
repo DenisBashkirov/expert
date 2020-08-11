@@ -6,12 +6,15 @@
         @endcomponent
     </div>
 
-    <div class="services-dropdown xs-sm:mt-8 md-lg:mt-8 xl:mt-10 b-radius-10 shadow overflow-hidden">
+    <div class="services-dropdown xs-sm:mt-8 md-lg:mt-8 xl:mt-10 b-radius-10 shadow b-grey-30 overflow-hidden">
 
         @foreach($service_categories as $category)
 
             <div>
-                <h3 class="service-dropdown__category-headline xs-sm:p-4 md-xl:p-6 xs:text-xl sm:text-2xl md-xl:text-4xl b-bottom-grey-20 bg-white js-dropdown-toggle cursor-pointer hover-contrast-98">{{ $category->name }}</h3>
+                <div class="service-dropdown__category-headline flex justify-between xs-sm:p-4 md-xl:p-6 xs:text-xl sm:text-2xl md-xl:text-4xl b-bottom-grey-20 bg-white js-dropdown-toggle cursor-pointer">
+                    <h3>{{ $category->name }}</h3>
+                    <i class="icon-breadcrumb-arrow service-dropdown__category-arrow"></i>
+                </div>
                 <div class="services-dropdown__category-items hidden xs-sm:px-2 md-xl:px-4 pb-8 bg-white-90 b-bottom-grey-20">
 
                     <div class="md-xl:grid grid-cols-3 md:col-gap-4 lg:col-gap-4 xl:col-gap-4 md-xl:row-gap-3">
