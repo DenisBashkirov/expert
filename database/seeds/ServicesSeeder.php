@@ -102,7 +102,7 @@ class ServicesSeeder extends Seeder
                 'popular' => 0
             ],
             [
-                'name'=>'Пожарно-техническая экспертиза',
+                'name'=>'Пожаротехническая экспертиза',
                 'icon'=>'extinguisher',
                 'category_id'=> 1,
                 'popular' => 0
