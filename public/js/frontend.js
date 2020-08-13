@@ -125,7 +125,7 @@ $(document).ready(function () {
             let $dropdown = $(this).find('.nav__dropdown');
             $dropdown.slideUp('200');
         });
-        
+
     }
 
 

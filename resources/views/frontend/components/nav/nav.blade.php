@@ -17,12 +17,12 @@
                 <div class="flex flex-row flex-nowrap sx-4">
                 <ul class="flex flex-col sy-2 list-none">
                 @for ($i = 0; $i < 15; $i++)
-                        <li><a class="hover-underline white-space-nowrap" href="#">{{ $services_list['expertize'][$i]->name }}</a></li>
+                        <li><a class="hover-underline white-space-nowrap" href="{{ route('service', ['service'=>\Illuminate\Support\Str::slug($services_list['expertize'][$i]->name)]) }}">{{ $services_list['expertize'][$i]->name }}</a></li>
                     @endfor
             </ul>
             <ul class="flex flex-col sy-2 list-none">
                 @for ($i = 15; $i < count($services_list['expertize']); $i++)
-                    <li><a class="hover-underline white-space-nowrap" href="#">{{ $services_list['expertize'][$i]->name }}</a></li>
+                    <li><a class="hover-underline white-space-nowrap" href="{{ route('service', ['service'=>\Illuminate\Support\Str::slug($services_list['expertize'][$i]->name)]) }}">{{ $services_list['expertize'][$i]->name }}</a></li>
                 @endfor
             </ul>
             </div>
@@ -41,7 +41,7 @@
                 <div class="flex flex-row flex-nowrap sx-4">
                 <ul class="flex flex-col sy-2 list-none">
                     @foreach($services_list['appraisal'] as $service)
-                        <a class="hover-underline white-space-nowrap" href="#">{{ $service->name }}</a>
+                        <a class="hover-underline white-space-nowrap" href="{{ route('service', ['service'=>\Illuminate\Support\Str::slug($service->name)]) }}">{{ $service->name }}</a>
                     @endforeach
                 </ul>
                 </div>
