@@ -108,21 +108,25 @@ $(document).ready(function () {
         });
     }
 
-    let $dropdownButtons = $('.js-dropdown-toggle');
-    $dropdownButtons.on('click', function () {
-        let $next = $(this).next();
-        $next.slideToggle();
-    });
+    if(desktop) {
 
-    $('.js-nav-dropdown-show').on('mouseenter', function () {
-        let $dropdown = $(this).find('.nav__dropdown');
-        $dropdown.slideDown('200');
-    });
+        let $dropdownButtons = $('.js-dropdown-toggle');
+        $dropdownButtons.on('click', function () {
+            let $next = $(this).next();
+            $next.slideToggle();
+        });
 
-    $('.js-nav-dropdown-show').on('mouseleave', function () {
-        let $dropdown = $(this).find('.nav__dropdown');
-        $dropdown.slideUp('200');
-    });
+        $('.js-nav-dropdown-show').on('mouseenter', function () {
+            let $dropdown = $(this).find('.nav__dropdown');
+            $dropdown.slideDown('200');
+        });
+
+        $('.js-nav-dropdown-show').on('mouseleave', function () {
+            let $dropdown = $(this).find('.nav__dropdown');
+            $dropdown.slideUp('200');
+        });
+        
+    }
 
 
 
