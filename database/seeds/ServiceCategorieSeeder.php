@@ -24,7 +24,7 @@ class ServiceCategorieSeeder extends Seeder
                 ],
             [
                 'name' => 'Рецензирование',
-                'h' => ''
+                'h1' => 'Рецензирование экспертиз'
             ],
         ];
 
