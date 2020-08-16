@@ -204,7 +204,7 @@ class ServicesSeeder extends Seeder
             ],
 
             [
-                'name'=>'Рецензирование',
+                'name'=>'Рецензирование судебных экспертиз',
                 'icon'=>'document',
                 'category_id'=> 3,
                 'popular' => 0
