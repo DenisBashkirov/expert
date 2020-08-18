@@ -11,7 +11,26 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-174660091-1');
+        gtag('config', 'AW-606382949');
     </script>
+
+    <!-- Event snippet for Контакт conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-606382949/N7H9CMKdrNsBEOXWkqEC',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+
 
     <!-- Yandex Webmaster -->
     <meta name="yandex-verification" content="2e7efb253224f5bc" />
