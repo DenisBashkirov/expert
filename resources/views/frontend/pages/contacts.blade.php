@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="sy-4 lh-120">
-                    <address class="flex flex-col sy-2"><b>Экспедиционный отдел</b> {{ $company['address'] }}6</address>
+                    <address class="flex flex-col sy-2"><b>Экспедиционный отдел</b> {{ $company['address'] }}</address>
                     <address class="flex flex-col sy-2"><b>Юридический адрес</b> {{ $company['address_legal'] }}</address>
                     <p><b>Телефон</b></p>
                     @foreach($company['phones'] as $i)
