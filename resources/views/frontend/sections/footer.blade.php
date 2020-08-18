@@ -55,7 +55,7 @@
 
             <div>
                 <div class="footer__phone text-2xl font-medium">
-                    <a class="no-underline calltracking" href="tel:{{ $company['phone_href'] }}">{{ $company['phone'] }}</a>
+                    <a class="no-underline calltracking" href="tel:{{ $company['phones']['primary']['phone_href'] }}">{{ $company['phones']['primary']['phone'] }}</a>
                 </div>
                 <div class="footer__schedule">
                     <p>пн-пт: 9<sup>00</sup>-18<sup>00</sup></p>

@@ -22,8 +22,8 @@ class FrontendOutputController extends FrontendBaseController
 
         $company = [
             'phones' => [
-                ['phone'=>'8 (861) 290 01 41', 'phone_href'=>'88612900141'],
-                ['phone'=>'8 (861) 238 87 03', 'phone_href'=>'88612388703']
+                'primary' => ['phone'=>'8 (861) 290 01 41', 'phone_href'=>'88612900141'],
+                'secondary' => ['phone'=>'8 (861) 238 87 03', 'phone_href'=>'88612388703']
             ],
             'address'=>'г. Краснодар, ул. Степана Разина, 72, оф. 206',
             'address_legal'=>'г. Краснодар, ул. Калинина, 350/7',

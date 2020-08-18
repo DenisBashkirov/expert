@@ -25,8 +25,9 @@
                     <address class="flex flex-col sy-2"><b>Экспедиционный отдел</b> {{ $company['address'] }}6</address>
                     <address class="flex flex-col sy-2"><b>Юридический адрес</b> {{ $company['address_legal'] }}</address>
                     <p><b>Телефон</b></p>
-                    <p><a class="hover-underline calltracking" href="tel:{{ $company['phone_href'] }}">{{ $company['phone'] }}</a></p>
-                    <p><a class="hover-underline" href="tel:{{ $company['phone_href'] }}">{{ $company['phone'] }}</a></p>
+                    @foreach($company['phones'] as $i)
+                        <p><a class="hover-underline" href="tel:{{ $i['phone_href'] }}">{{ $i['phone'] }}</a></p>
+                    @endforeach
                     <p><b>Email:</b> <a class="hover-underline" href="mailto:{{ $company['email'] }}">{{ $company['email'] }}</a></p>
                 </div>
 
