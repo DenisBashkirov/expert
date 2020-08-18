@@ -50,7 +50,7 @@
     </span>
 
     @component('frontend.components.nav.nav__item', [
-        'link'=>route('service', ['service'=>\Illuminate\Support\Str::slug('Рецензирование')]),
+        'link'=>route('service', ['service'=>\Illuminate\Support\Str::slug('Рецензирование судебных экспертиз')]),
         'text'=>'Рецензирование'
     ])
     @endcomponent
