@@ -21,8 +21,10 @@ class FrontendOutputController extends FrontendBaseController
     public function __construct(Request $request) {
 
         $company = [
-            'phone'=>'8 (861) 290 01 41',
-            'phone_href'=>'88612900141',
+            'phones' => [
+                ['phone'=>'8 (861) 290 01 41', 'phone_href'=>'88612900141'],
+                ['phone'=>'8 (861) 238 87 03', 'phone_href'=>'88612388703']
+            ],
             'address'=>'г. Краснодар, ул. Степана Разина, 72, оф. 206',
             'address_legal'=>'г. Краснодар, ул. Калинина, 350/7',
             'email'=>'expert@roseksp.ru'
