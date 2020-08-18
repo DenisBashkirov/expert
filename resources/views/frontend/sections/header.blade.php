@@ -15,7 +15,7 @@
 
         <a class="header__phone xs-lg:hidden xl:text-xl hover-underline calltracking" href="tel:{{ $company['phones']['primary']['phone_href'] }}">{{ $company['phones']['primary']['phone'] }}</a>
 
-        <div class="header__callback xs-lg:hidden xl:text-xs" onclick="jivo_api.open({start : 'call'});">
+        <div class="header__callback xs-lg:hidden xl:text-xs" onclick="jivo_api.open({start : 'call'}); gtag_report_conversion();">
             @component('frontend.components.button.button')
                 Заказать звонок
             @endcomponent
