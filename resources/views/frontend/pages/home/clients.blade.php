@@ -69,6 +69,9 @@
 
         </div>
 
+        <div class="clients-swiper-navigation-prev swiper-button-prev color-black-90"></div>
+        <div class="clients-swiper-navigation-next swiper-button-next color-black-90"></div>
+
     </div>
 
 </section>

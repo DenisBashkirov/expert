@@ -77,8 +77,8 @@ $(document).ready(function () {
         watchOverflow: true,
         autoplay: true,
         navigation: {
-            nextEl: '.certificates-swiper-navigation .swiper-button_next',
-            prevEl: '.certificates-swiper-navigation .swiper-button_prev',
+            nextEl: '.clients-swiper-navigation-next',
+            prevEl: '.clients-swiper-navigation-prev',
         },
 
         breakpoints: {
@@ -105,7 +105,9 @@ $(document).ready(function () {
                 slidesOffsetBefore: 0,
                 slidesOffsetAfter: 0
             }
-        }
+        },
+
+
     });
 
     if(desktop) {
