@@ -72,41 +72,41 @@ $(document).ready(function () {
     });
 
 
-    if(mobile_xs || mobile_sm) {
-        let clientsSwiper = new Swiper('.clients-swiper', {
-            spaceBetween: 30,
-            watchOverflow: true,
-            slidesOffsetBefore: 15,
-            slidesOffsetAfter: 15,
-            navigation: {
-                nextEl: '.certificates-swiper-navigation .swiper-button_next',
-                prevEl: '.certificates-swiper-navigation .swiper-button_prev',
-            },
+    let clientsSwiper = new Swiper('.clients-swiper', {
+        spaceBetween: 30,
+        watchOverflow: true,
+        autoplay: true,
+        navigation: {
+            nextEl: '.certificates-swiper-navigation .swiper-button_next',
+            prevEl: '.certificates-swiper-navigation .swiper-button_prev',
+        },
 
-            breakpoints: {
-                // when window width is >= 320px
-                320: {
-                    slidesPerView: 'auto',
-                    centeredSlides: true,
-                    centeredSlidesBounds: true,
-                    loop: true,
-                },
-                // when window width is >= 768px
-                768: {
-                    slidesPerView: 'auto',
-                    centeredSlides: false,
-                    //watchOverflow: false
-                },
-                // when window width is >= 1200px
-                1200: {
-                    slidesPerView: 4,
-                    spaceBetween: 30,
-                    slidesOffsetBefore: 0,
-                    slidesOffsetAfter: 0
-                }
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                slidesOffsetBefore: 15,
+                slidesOffsetAfter: 15,
+                centeredSlidesBounds: true,
+                loop: true,
+            },
+            // when window width is >= 768px
+            768: {
+                spaceBetween: 50,
+                slidesPerView: 'auto',
+                centeredSlides: false,
+                //watchOverflow: false
+            },
+            // when window width is >= 1200px
+            1200: {
+                spaceBetween: 50,
+                slidesPerView: 'auto',
+                slidesOffsetBefore: 0,
+                slidesOffsetAfter: 0
             }
-        });
-    }
+        }
+    });
 
     if(desktop) {
 

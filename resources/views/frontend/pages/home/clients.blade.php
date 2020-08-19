@@ -12,33 +12,57 @@
 
         <div class="clients-swiper swiper-container">
 
-            <div class="clients-swiper__wrapper swiper-wrapper md-xl:flex md-xl:flex-row md-xl:flex-wrap md-xl:flex-center md-xl:justify-between md-lg:xs-4 xl:sx-10 xs-lg:mt-6 xl:mt-10">
+            <div class="clients-swiper__wrapper swiper-wrapper xs-lg:mt-6 xl:mt-10">
 
-                @component('frontend.components.client-logo.client-logo', ['img'=>'agrokompleks'])
+                @component('frontend.components.client-logo.client-logo', ['img'=>'agrokompleks.png'])
                 @endcomponent
 
-                @component('frontend.components.client-logo.client-logo', ['img'=>'magnit'])
+                @component('frontend.components.client-logo.client-logo', ['img'=>'lukoil.png'])
                 @endcomponent
 
-                @component('frontend.components.client-logo.client-logo', ['img'=>'volkswagen'])
+                @component('frontend.components.client-logo.client-logo', ['img'=>'pochta_rossii.png'])
                 @endcomponent
 
-                @component('frontend.components.client-logo.client-logo', ['img'=>'mvideo'])
+                @component('frontend.components.client-logo.client-logo', ['img'=>'fns.png'])
                 @endcomponent
 
-                @component('frontend.components.client-logo.client-logo', ['img'=>'sberbank'])
+                @component('frontend.components.client-logo.client-logo', ['img'=>'leroy_merlin.png'])
                 @endcomponent
 
-                @component('frontend.components.client-logo.client-logo', ['img'=>'vtb-strahovanie'])
+                @component('frontend.components.client-logo.client-logo', ['img'=>'ikea.png'])
                 @endcomponent
 
-                @component('frontend.components.client-logo.client-logo', ['img'=>'uralsib-bank'])
+                @component('frontend.components.client-logo.client-logo', ['img'=>'gazprom.png'])
                 @endcomponent
 
-                @component('frontend.components.client-logo.client-logo', ['img'=>'rosgosstrah'])
+                @component('frontend.components.client-logo.client-logo', ['img'=>'hyundai.png'])
                 @endcomponent
 
-                @component('frontend.components.client-logo.client-logo', ['img'=>'uralsib-strahovanie'])
+                @component('frontend.components.client-logo.client-logo', ['img'=>'kia_motors.png'])
+                @endcomponent
+
+                @component('frontend.components.client-logo.client-logo', ['img'=>'jaguar.png'])
+                @endcomponent
+
+                @component('frontend.components.client-logo.client-logo', ['img'=>'magnit.png'])
+                @endcomponent
+
+                @component('frontend.components.client-logo.client-logo', ['img'=>'volkswagen.png'])
+                @endcomponent
+
+                @component('frontend.components.client-logo.client-logo', ['img'=>'mvideo.png'])
+                @endcomponent
+
+                @component('frontend.components.client-logo.client-logo', ['img'=>'sberbank.png'])
+                @endcomponent
+
+                @component('frontend.components.client-logo.client-logo', ['img'=>'uralsib-bank.png'])
+                @endcomponent
+
+                @component('frontend.components.client-logo.client-logo', ['img'=>'rosgosstrah.png'])
+                @endcomponent
+
+                @component('frontend.components.client-logo.client-logo', ['img'=>'baucenter.png'])
                 @endcomponent
 
             </div>
