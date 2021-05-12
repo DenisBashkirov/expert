@@ -44,7 +44,7 @@
     "gulp-autoprefixer": "^6.1.0",
     "gulp-cli": "^2.2.0",
     "gulp-if": "^3.0.0",
-    "swiper": "^5.2.1",
+    "swiper": "^6.5.1",
     "yargs": "^15.0.2"
   },
   "name": "my-package.local",
